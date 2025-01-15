@@ -249,7 +249,7 @@ Para hacer la animación de desaparición del objeto una vez recolectado deberem
 
 # Enemigos
 
-El nivel cuenta con 4 tipos de enemigos, estos son las setas, los murcielagos, los slime y los arboles. Todos son derrotables menos los arboles, los cuales se encargaran de disparar un proyectil en caso de que estemos dentro de su rango de visión.
+El nivel cuenta con 4 tipos de enemigos, estos son las setas, los murciélagos, los slime y los arboles. Todos son derrotables menos los arboles, los cuales se encargaran de disparar un proyectil en caso de que estemos dentro de su rango de visión.
 
 ## Setas
 
@@ -292,9 +292,9 @@ public class EnemyMovement : MonoBehaviour
 
 ![](https://github.com/Alu0101030562/Screenshots/blob/main/Screenshots/Prototipo2D/5.%20Seta.gif)
 
-## Murcielago
+## Murciélago
 
-Al igual que la seta, cuenta con una animación de movimiento y de golpe. En esta caso, la forma de movimiento del murcielago sera mediante diferentes waypoints puestos en la zona, pero de forma en que vaya a los puntos de forma aleatoria, en vez de seguir el orden en el que se llaman o estan colocados. Para esto esta el script **EnemyRouteRandom.cs** en el cual añadiremos la lista de puntos para tener los waypoints, la velocidad a la que se desplazará y la distancia a la que pasará al siguiente punto.
+Al igual que la seta, cuenta con una animación de movimiento y de golpe. En esta caso, la forma de movimiento del murciélago sera mediante diferentes waypoints puestos en la zona, pero de forma en que vaya a los puntos de forma aleatoria, en vez de seguir el orden en el que se llaman o estan colocados. Para esto esta el script **EnemyRouteRandom.cs** en el cual añadiremos la lista de puntos para tener los waypoints, la velocidad a la que se desplazará y la distancia a la que pasará al siguiente punto.
 
 ```c#
 public class EnemyRouteRandom : MonoBehaviour
